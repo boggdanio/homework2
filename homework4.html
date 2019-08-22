@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"
+    <title>AutoBadRia</title>
+</head>
+<body>
+    <section id="login">
+        <div class="form-boxes">
+            <form class="forms" action="https://fom.in.ua/echo" method="POST">
+                <fieldset>
+                    <legend>Log In:</legend>
+                    <input type="email" name="user-email" placeholder="Email">
+                    <br>
+                    <input type="password" name="user-password" placeholder="Password">
+                    <br>
+                    <input type="radio" name="gender" value="male" id="m">
+                <label for="">мужской</label>
+                <input type="radio" name="gender" value="female" id="f">
+                <label for="f2">женский</label>
+                    <br>
+                    <input type="checkbox" name="remember-me" id="remember"><label for="remember">Remember Me</label>
+                    <br>
+                    <br>
+                    <input type="submit" value="buy">
+                </fieldset>
+            </form>    
+        </div>
+    </section>
+                    <br>
+                    <br>
+    <section id="register">
+        <div class="form-boxes">
+            <form class="forms" action="https://fom.in.ua/echo" method="POST">
+                <fieldset>
+                    <legend>Register now:</legend>
+                    <input type="email" name="user-email" placeholder="Enter Email">
+                    <br>
+                    <br>
+                    <input type="password" name="user-password" placeholder="Enter Password">
+                    <br>
+                    <br>
+                    <input type="password" name="user-password-confirm" placeholder="Confirm Password">
+                    <br>
+                    <br>
+                    <input type="submit" value="Register">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+                    <br>
+                    <br>
+    <section id="search">
+        <div class="form-boxes">
+            <form class="forms" action="https://fom.in.ua/echo" method="GET">
+                <fieldset>
+                    <legend>Options:</legend>
+                    <p class="form-text">
+                        TESLA
+                    </p>
+                    <select name="tesla-model" id="tesla-models">
+                        <option value="none">none</option>
+                        <option value="model X">model X</option>
+                        <option value="model S  ">model S</option>
+                        
+                    </select>
+                    
+                    <p class="form-text">
+                        BMW
+                    </p>
+                    <select name="BMW" id="BMW-models">
+                        <option value="none">none</option>
+                        <option value="X3">X3</option>
+                        <option value="X4">X4</option>
+                        <option value="X5">X5</option>
+                        <option value="X6">X6</option>
+                    </select>
+                    
+                    <p class="form-text">
+                        MERCEDES
+                    </p>
+                    <select name="MERCEDES-model" id="MERCEDES-models">
+                        <option value="none">none</option>
+                        <option value="CLA200">CLA200</option>
+                        <option value="CLA250">CLA250</option>
+                        <option value="GLE200">GLE200</option>
+                        <option value="GLE400">GLE400FWD</option>
+                    </select>
+                    
+                    <p class="form-text">
+                         AUDI
+                    </p>
+                    <select name="AUDI-model" id="AUDI-models">
+                        <option value="none">none</option>
+                        <option value="RS3">RS3</option>
+                        <option value="RS5">RS5</option>
+                        <option value="Q7">Q7</option>
+                    </select>
+                    
+                    <p class="form-text">
+                        Year
+                    </p>
+                    2000<input type="range" name="year" min="2000" max="2019">2019
+
+                    <p class="form-text">
+                        Price
+                    </p>
+                    10000<input type="range" name="year" min="2000" max="2019">50000
+                    
+                    <p class="form-text">
+                        Country
+                    </p>
+                    <select name="country" id="country">
+                        <option value="german">German</option>
+                        <option value="usa">USA</option>
+                    </select>
+
+                    <p class="form-text">
+                        Conditions
+                    </p>
+                    <input type="checkbox" name="fromdiller" id="new"><label for="-new">New</label>
+                    <input type="checkbox" name="auction" id="auction"><label for="auction">Used</label>
+                    <p class="form-text">
+                        Fuel
+                    </p>
+                    <select name="fuel" id="fuels">
+                        <option value="gas">gas</option>
+                        <option value="Diesel">Diesel Fuel</option>
+                    </select>
+
+                    <p class="form-text">
+                        Transmission
+                    </p>
+                    <input type="radio" name="transmission" id="t-auto" value="automatic"><label for="t-auto">Automatic</label>
+                    <input type="radio" name="transmission" id="t-manual" value="manual"><label for="t-manual">Manual</label>
+
+                    <p class="form-text">
+                        Color
+                    </p>
+                    <input type="checkbox" name="black" id="cb-black"><label for="cb-black">Black</label>
+                    <input type="checkbox" name="white" id="cb-white"><label for="cb-white">White</label>
+                    <input type="checkbox" name="red" id="cb-red"><label for="cb-red">Red</label>
+                    <p class="form-text">
+                    <br>
+                    <br>
+                    <input type="submit" value="Search">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
